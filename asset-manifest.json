@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/wintech/static/css/main.8fead303.css",
+    "main.js": "/wintech/static/js/main.8c3c51b7.js",
+    "static/media/project4.jpg": "/wintech/static/media/project4.e2c5e920e77291a584bc.jpg",
+    "static/media/project3.jpg": "/wintech/static/media/project3.7bda322981fb2f1b6c17.jpg",
+    "static/media/contact1.jpg": "/wintech/static/media/contact1.e1f238ae4f8935edeabc.jpg",
+    "static/media/bg25.png": "/wintech/static/media/bg25.16f485accfb6460bfb17.png",
+    "static/media/project2.jpg": "/wintech/static/media/project2.7505a07d77f5054e0a10.jpg",
+    "static/media/project1.jpg": "/wintech/static/media/project1.50c7b9e8199dc3765788.jpg",
+    "static/media/project7.jpg": "/wintech/static/media/project7.0f2b907b146bbe281855.jpg",
+    "static/media/project9.jpeg": "/wintech/static/media/project9.f9650133c2e185b373bd.jpeg",
+    "static/media/bg24.jpg": "/wintech/static/media/bg24.9c025c157d62bed25f14.jpg",
+    "static/media/project11.png": "/wintech/static/media/project11.d26dbb6922ed4d602d48.png",
+    "static/media/project6.jpg": "/wintech/static/media/project6.c5a316484095f4fbfcb3.jpg",
+    "static/media/bg23.jpg": "/wintech/static/media/bg23.622ab6d2c759cddecbcb.jpg",
+    "static/media/project10.jpg": "/wintech/static/media/project10.d561e94e899e60535e8e.jpg",
+    "static/media/wintech_background.webp": "/wintech/static/media/wintech_background.4b5aae7b20d9f5e3244f.webp",
+    "static/media/project12.jpg": "/wintech/static/media/project12.cc3dcbf164551b079db5.jpg",
+    "static/media/project5.webp": "/wintech/static/media/project5.5cff31967008570281b6.webp",
+    "static/media/nucleo-outline.eot": "/wintech/static/media/nucleo-outline.56814a6b7240045e1494.eot",
+    "static/media/nucleo-outline.ttf": "/wintech/static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf",
+    "static/media/nucleo-outline.woff": "/wintech/static/media/nucleo-outline.1a1036e643f97457ec5f.woff",
+    "static/media/nucleo-outline.woff2": "/wintech/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
+    "index.html": "/wintech/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.8fead303.css",
+    "static/js/main.8c3c51b7.js"
+  ]
+}
