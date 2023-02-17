@@ -44,166 +44,165 @@ function Projects() {
               <Col md="12">
                 <div className="section-space"></div>
                 <div className="nav-align-center">
-                  <Nav className="nav-pills-info" pills role="tablist">
-                    <Row md="6">
-                      <NavItem>
-                        <NavLink
-                          className={pills === "1" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("1");
-                          }}
-                        >
-                          <Trans i18nKey="Projects1">
-                            化工技術
-                          </Trans>
-                        </NavLink>
-                      </NavItem>
-                      <NavItem>
-                        <NavLink
-                          className={pills === "2" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("2");
-                          }}
-                        >
-                          <Trans i18nKey="Projects2">生技製藥</Trans>
-                        </NavLink>
-                      </NavItem>
+                  <Nav pills className="nav-pills" role="tablist">
+                    <div className="container">
+                      <div className="row">
 
-                      <NavItem>
-                        <NavLink
-                          className={pills === "3" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("3");
-                          }}
-                        >
-                          <Trans i18nKey="Projects3">生技醱酵工廠</Trans>
-                        </NavLink>
-                      </NavItem>
-                    </Row>
-                    <Row md="6">
-                      <NavItem>
-                        <NavLink
-                          className={pills === "4" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("4");
-                          }}
-                        >
-                          <Trans i18nKey="Projects4">精密化學品工廠</Trans>
-                        </NavLink>
-                      </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "1" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("1");
+                            }}
+                          >
+                            <Trans i18nKey="Projects1">
+                              化工技術
+                            </Trans>
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "2" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("2");
+                            }}
+                          >
+                            <Trans i18nKey="Projects2">生技製藥</Trans>
+                          </NavLink>
+                        </NavItem>
 
-                      <NavItem>
-                        <NavLink
-                          className={pills === "5" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("5");
-                          }}
-                        >
-                          <Trans i18nKey="Projects5">原料藥廠</Trans>
-                        </NavLink>
-                      </NavItem>
-                      <NavItem>
-                        <NavLink
-                          className={pills === "6" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("6");
-                          }}
-                        >
-                          <Trans i18nKey="Projects6">實驗室規劃</Trans>
-                        </NavLink>
-                      </NavItem>
-                    </Row>
-                    <Row md="6">
-                      <NavItem>
-                        <NavLink
-                          className={pills === "7" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("7");
-                          }}
-                        >
-                          <Trans i18nKey="Projects7">特殊設備進出口</Trans>
-                        </NavLink>
-                      </NavItem>
-                      <NavItem>
-                        <NavLink
-                          className={pills === "8" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("8");
-                          }}
-                        >
-                          <Trans i18nKey="Projects8">整合設備、製造工廠價值</Trans>
-                        </NavLink>
-                      </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "3" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("3");
+                            }}
+                          >
+                            <Trans i18nKey="Projects3">生技醱酵工廠</Trans>
+                          </NavLink>
+                        </NavItem>
 
-                      <NavItem>
-                        <NavLink
-                          className={pills === "9" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("9");
-                          }}
-                        >
-                          <Trans i18nKey="Projects9">室內建廠技術</Trans>
-                        </NavLink>
-                      </NavItem>
-                    </Row>
-                    <Row md="6">
-                      <NavItem>
-                        <NavLink
-                          className={pills === "10" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("10");
-                          }}
-                        >
-                          <Trans i18nKey="Projects10">E.P.C.同步整合</Trans>
-                        </NavLink>
-                      </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "4" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("4");
+                            }}
+                          >
+                            <Trans i18nKey="Projects4">精密化學品工廠</Trans>
+                          </NavLink>
+                        </NavItem>
 
-                      <NavItem>
-                        <NavLink
-                          className={pills === "11" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("11");
-                          }}
-                        >
-                          <Trans i18nKey="Projects11">3D機電整合模擬</Trans>
-                        </NavLink>
-                      </NavItem>
-                      <NavItem>
-                        <NavLink
-                          className={pills === "12" ? "active" : ""}
-                          href="#pablo"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            setPills("12");
-                          }}
-                        >
-                          <Trans i18nKey="Projects12">建廠潔淨技術</Trans>
-                        </NavLink>
-                      </NavItem>
-                    </Row>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "5" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("5");
+                            }}
+                          >
+                            <Trans i18nKey="Projects5">原料藥廠</Trans>
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "6" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("6");
+                            }}
+                          >
+                            <Trans i18nKey="Projects6">實驗室規劃</Trans>
+                          </NavLink>
+                        </NavItem>
 
+                        <NavItem>
+                          <NavLink
+                            className={pills === "7" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("7");
+                            }}
+                          >
+                            <Trans i18nKey="Projects7">特殊設備進出口</Trans>
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "8" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("8");
+                            }}
+                          >
+                            <Trans i18nKey="Projects8">整合設備、製造工廠價值</Trans>
+                          </NavLink>
+                        </NavItem>
+
+                        <NavItem>
+                          <NavLink
+                            className={pills === "9" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("9");
+                            }}
+                          >
+                            <Trans i18nKey="Projects9">室內建廠技術</Trans>
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "10" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("10");
+                            }}
+                          >
+                            <Trans i18nKey="Projects10">E.P.C.同步整合</Trans>
+                          </NavLink>
+                        </NavItem>
+
+                        <NavItem>
+                          <NavLink
+                            className={pills === "11" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("11");
+                            }}
+                          >
+                            <Trans i18nKey="Projects11">3D機電整合模擬</Trans>
+                          </NavLink>
+                        </NavItem>
+                        <NavItem>
+                          <NavLink
+                            className={pills === "12" ? "active" : ""}
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setPills("12");
+                            }}
+                          >
+                            <Trans i18nKey="Projects12">建廠潔淨技術</Trans>
+                          </NavLink>
+                        </NavItem>
+
+                      </div>
+                    </div>
                   </Nav>
 
                   <div className="section-space"></div>
