@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wintech/static/css/main.8fead303.css",
-    "main.js": "/wintech/static/js/main.8c3c51b7.js",
+    "main.js": "/wintech/static/js/main.7fd2e770.js",
     "static/media/project4.jpg": "/wintech/static/media/project4.e2c5e920e77291a584bc.jpg",
     "static/media/project3.jpg": "/wintech/static/media/project3.7bda322981fb2f1b6c17.jpg",
     "static/media/contact1.jpg": "/wintech/static/media/contact1.e1f238ae4f8935edeabc.jpg",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.8fead303.css",
-    "static/js/main.8c3c51b7.js"
+    "static/js/main.7fd2e770.js"
   ]
 }
